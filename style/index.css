@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+* {
+  margin: 0; padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #FB8C00, #FFC107);
+}
+.container {
+  font-family: 'Roboto', Arial;
+}
+
+.container header {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: #FFF;
+}
+.container header h1 {
+  font-weight: 700;
+}
+
+.container .search {
+  height: 130px;
+  width: 400px;
+  margin: 16px auto;
+  /* display: flex; */
+  /*  align-items: center; */
+  /* justify-content: center; */
+}
+.container .search input {
+  width: 400px;
+  height: 50px;
+  border: 0;
+  outline: none;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+.container .search img {
+  position: relative;
+  left: 368px;
+  bottom: 36px;
+}
+
+.container hr {
+  width: 500px;
+  border: none;
+  height: 1px;
+  background-color: #FAFAFA;
+}
+
+.container .weather {
+  margin: auto;
+  height: 200px;
+  width: 400px;
+  background-color: #FAFAFA;
+  position: relative;
+  padding: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0,0,0,.07),
+              0px 3px 4px rgba(0,0,0,.06),
+              0px 1px 5px rgba(0,0,0,.10);
+  font-family: 'Open Sans', Arial;
+}
+
+.container .weather header {
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #424242;
+}
+
+.container .weather header .close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  font-family: Arial;
+  color: #FB8C00;
+  cursor: pointer;
+}
+.container .weather header p {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.container .weather header h1 {
+  font-size: 28px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.container .weather .content {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  align-items: center;
+  font-size: 14px;
+}
+.container .weather .content .minMax {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  width: 40%;
+}
+.container .weather .content .min, .container .weather .content .max {
+  display: flex;
+  align-items: center;
+}
+.container .weather .content .sensation {
+  width: 60%;
+}
+.container .weather .content .vento {
+  width: 40%;
+}
+.container .weather .content .sensation {
+  width: 60%;
+}

@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Desafio Yahoo</title>
+    <script src="./scripts/index.js"></script>
+    <link rel="stylesheet" href="./style/index.css">
+
+  </head>
+  <body>
+
+    <section class="container">
+          <header>
+            <h1>Previsão do tempo</h1>
+          </header>
+
+          <section class="weather">
+            <header>
+              <span class="close">X</span>
+                <p class="location">Carregando...</p>
+                <h1 class="temp">Carregando...</h1>
+            </header>
+            <section class="content">
+              <section class="minMax">
+                <section class="min">
+                  <span></span>
+                  <img src="./style/icons/arrow_down.svg" />
+                </section>
+                <section class="max">
+                  <span></span>
+                  <img src="./style/icons/arrow_up.svg" />
+                </section>
+              </section>
+              <section class="sensation">
+                Sensação <b></b>
+              </section>
+              <section class="vento">
+                  Vento <b></b>
+              </section>
+              <section class="humidade">
+                Humidade <b></b>
+              </section>
+            </section>
+          </section>
+          <section class="search">
+            <input type="text" placeholder="Insira aqui o nome da cidade" onblur="newLocal(this.value)"/>
+            <img src="./style/icons/search.svg"/>
+          </section>
+
+          <hr/>
+    </section>
+    <script>
+  </body>
+</html>
